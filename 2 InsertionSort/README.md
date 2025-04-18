@@ -30,7 +30,7 @@ print(A)
 
 The image below demonstrates how Insertion Sort builds the sorted portion of the list one element at a time by shifting larger elements to the right and inserting the current element in its correct position.
 
-![Merge Sort Visualization](../img/.references/InsertionSort.png)
+![Merge Sort Visualization](../img/references/InsertionSort.png)
 
 *Image source: Cormen, Thomas H., et al. “Introduction to Algorithms.” 3rd ed., MIT Press, 2009.*
 

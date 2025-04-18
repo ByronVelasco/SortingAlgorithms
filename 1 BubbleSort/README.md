@@ -31,7 +31,7 @@ print(A)
 The image below illustrates how Bubble Sort repeatedly compares and swaps adjacent elements, causing larger values to “bubble up” toward the end of the list.
 Through multiple passes, unsorted values shift into their correct positions, gradually producing a fully sorted sequence.
 
-![Merge Sort Visualization](../img/.references/BubbleSort.png)
+![Merge Sort Visualization](../img/references/BubbleSort.png)
 
 *Image source: [FavTutor – Bubble Sort in Python](https://favtutor.com/blogs/bubble-sort-python)* 
 

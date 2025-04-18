@@ -26,7 +26,7 @@ Performs Heap Sort by building a Max Heap and then sorting the list `A` in-place
 
 The image below illustrates how Heap Sort works: the input array is visualized as a binary tree, and the Max Heap property is maintained throughout the sorting process.
 
-![Heap Sort Step-by-Step](../img/.references/HeapSort.png)
+![Heap Sort Step-by-Step](../img/references/HeapSort.png)
 
 *Image source: Cormen, Thomas H., et al. “Introduction to Algorithms.” 3rd ed., MIT Press, 2009.*
 

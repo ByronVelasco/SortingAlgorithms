@@ -30,7 +30,7 @@ print(A)
 
 The image below illustrates how Selection Sort repeatedly selects the smallest element from the unsorted portion of the list and places it in its correct position by swapping it with the first unsorted element.
 
-![Selection Sort Step-by-Step](../img/.references/SelectionSort.png)
+![Selection Sort Step-by-Step](../img/references/SelectionSort.png)
 
 *Image source: [w3resource – Selection Sort Algorithm](https://www.w3resource.com/php-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-4.php)*
 

@@ -28,7 +28,7 @@ This process is recursively applied to the left and right subarrays until the en
 
 The image below shows how Quick Sort partitions the array around the pivot and gradually sorts it using recursive calls.
 
-![Quick Sort Step-by-Step](../img/.references/QuickSort.png)
+![Quick Sort Step-by-Step](../img/references/QuickSort.png)
 
 *Image source: [Latte & Code – Algoritmos de ordenación: QuickSort en JavaScript](https://latteandcode.medium.com/algoritmos-de-ordenaci%C3%B3n-quicksort-en-javascript-f064db39e6ad)*
 

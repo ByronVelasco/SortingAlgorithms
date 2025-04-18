@@ -28,7 +28,7 @@ print(A)
 
 The image below illustrates how Merge Sort recursively divides the input list and then merges it back in a sorted manner.
 
-![Merge Sort Visualization](../img/.references/MergeSort.png)
+![Merge Sort Visualization](../img/references/MergeSort.png)
 
 *Image source: Cormen, Thomas H., et al. “Introduction to Algorithms.” 3rd ed., MIT Press, 2009.*
 

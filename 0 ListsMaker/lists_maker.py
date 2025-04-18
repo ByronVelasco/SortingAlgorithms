@@ -10,7 +10,7 @@ import random
 # %%
 def random_list(n):
   """
-  Returns a list of n random integers between low and high.
+  Returns a list of n random integers between 1 and n.
   """
   return [random.randint(1, n) for _ in range(n)]
 

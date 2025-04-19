@@ -33,7 +33,6 @@ The repository is organized into the following components:
 
 - **`img/` Folder**:  
   Stores the cited diagrams used to explain each algorithm and the output images generated during experimentation.  
-  Note: Some experimental plots may be missing from this folder, as saving images directly from the script resulted in overwriting files. However, all plots are also displayed inline within the script `ComplexityMachine.ipynb`.
 
 - **`7 ComplexityMachine/` Folder**:  
   Contains the notebook `ComplexityMachine.ipynb`, which performs the experimental analysis of sorting algorithms and presents the conclusions.

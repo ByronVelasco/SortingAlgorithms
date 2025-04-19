@@ -32,7 +32,7 @@ The repository is organized into the following components:
   - Descending sorted lists
 
 - **`img/` Folder**:  
-  Stores the cited diagrams used to explain each algorithm and the output images generated during experimentation.  
+  Stores the cited diagrams (`references/` folder) used to explain each algorithm and the output images generated during experimentation.  
 
 - **`7 ComplexityMachine/` Folder**:  
   Contains the notebook `ComplexityMachine.ipynb`, which performs the experimental analysis of sorting algorithms and presents the conclusions.

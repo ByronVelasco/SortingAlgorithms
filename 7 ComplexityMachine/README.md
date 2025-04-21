@@ -6,7 +6,7 @@ This module provides the experimental engine used to evaluate and compare the ti
 
 - A set of sizes of lists is defined in the variable `sizes`.
 - For each size, the sorting operation is repeated `reps` times to compute an **average execution time**. This reduces the impact of random system processes affecting timing.
-- The algorithms to be tested are listed in `algorithms`.
+- The algorithms to be tested are listed in `algorithm`.
 - The input configurations (e.g., ascending, descending, and random lists) are stored in `scenarios`.
 
 The execution times are stored in a list called `total_times`, where each entry corresponds to the average time for a specific size and scenario.

@@ -1,5 +1,5 @@
 # %% [markdown]
-# ## Partition Algorithm
+# ## **Partition Algorithm**
 
 # %%
 def Partition(A, p, r):
@@ -13,7 +13,7 @@ def Partition(A, p, r):
     return i + 1
 
 # %% [markdown]
-# ## Quick Sort Algorithm
+# ## **Quick Sort Algorithm**
 
 # %%
 def QuickSort(A, p, r):

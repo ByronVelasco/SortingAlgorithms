@@ -1,5 +1,5 @@
 # %% [markdown]
-# ## Max-Heapify Algorithm
+# ## **Max-Heapify Algorithm**
 
 # %%
 def MaxHeapify(A, n, i):
@@ -15,7 +15,7 @@ def MaxHeapify(A, n, i):
         MaxHeapify(A, n, largest)
 
 # %% [markdown]
-# ## Heap Sort Algorithm
+# ## **Heap Sort Algorithm**
 
 # %%
 def HeapSort(A):

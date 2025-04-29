@@ -1,11 +1,11 @@
 # %% [markdown]
-# ## Additional Libraries
+# ## **Additional Libraries**
 
 # %%
 from math import inf
 
 # %% [markdown]
-# ## Merge Sort Algorithm
+# ## **Merge Sort Algorithm**
 
 # %%
 def MergeSort(A):

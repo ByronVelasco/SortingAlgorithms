@@ -1,8 +1,8 @@
-# HeapSort
+# **HeapSort**
 
 This module contains the file `HeapSort.ipynb`, which implements the Heap Sort algorithm using a Max Heap.
 
-## Heap Sort Algorithm
+## **Heap Sort Algorithm**
 
 Heap Sort is a comparison-based sorting technique based on a Binary Heap data structure. It works by:
 
@@ -12,7 +12,7 @@ Heap Sort is a comparison-based sorting technique based on a Binary Heap data st
 
 This process ensures that the largest elements are moved to the end of the list in each iteration, resulting in a sorted array.
 
-## Functions Used
+## **Functions Used**
 
 ### `MaxHeapify(A, n, i)`
 
@@ -22,7 +22,7 @@ Maintains the **Max Heap property** for a subtree rooted at index `i` in the lis
 
 Performs Heap Sort by building a Max Heap and then sorting the list `A` in-place.
 
-## Visual Explanation of Heap Sort
+## **Visual Explanation of Heap Sort**
 
 The image below illustrates how Heap Sort works: the input array is visualized as a binary tree, and the Max Heap property is maintained throughout the sorting process.
 
@@ -38,7 +38,7 @@ print(A)
 # Output: [1, 2, 4, 7, 9]
 ```
 
-## Time Complexity
+## **Time Complexity**
 
 - **Best case:** $O(n \lg n)$
 - **Worst case:** $O(n \lg n)$

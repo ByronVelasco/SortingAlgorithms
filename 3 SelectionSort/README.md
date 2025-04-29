@@ -1,8 +1,8 @@
-# SelectionSort
+# **SelectionSort**
 
 This module contains the file `SelectionSort.ipynb`, which implements the Selection Sort algorithm.
 
-## Selection Sort Algorithm
+## **Selection Sort Algorithm**
 
 The Selection Sort algorithm divides the list into two parts — a sorted and an unsorted part. It repeatedly selects the smallest element from the unsorted part and moves it to the end of the sorted part.
 
@@ -14,7 +14,7 @@ The Selection Sort algorithm divides the list into two parts — a sorted and an
 
 - Eventually, the entire list is sorted.
 
-## Function: `SelectionSort(A)`
+## **Function:** `SelectionSort(A)`
 
 Sorts (ascending) a list `A`. Changes the entire list `A` in-place.
 
@@ -26,7 +26,7 @@ print(A)
 # Output: [11, 12, 22, 25, 64]
 ```
 
-## Visual Explanation of Selection Sort
+## **Visual Explanation of Selection Sort**
 
 The image below illustrates how Selection Sort repeatedly selects the smallest element from the unsorted portion of the list and places it in its correct position by swapping it with the first unsorted element.
 
@@ -34,7 +34,7 @@ The image below illustrates how Selection Sort repeatedly selects the smallest e
 
 *Image source: [w3resource – Selection Sort Algorithm](https://www.w3resource.com/php-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-4.php)*
 
-## Time Complexity
+## **Time Complexity**
 
 - **Best case:** $O(n^2)$
 - **Worst case:** $O(n^2)$

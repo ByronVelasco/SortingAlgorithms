@@ -1,8 +1,8 @@
-# QuickSort
+# **QuickSort**
 
 This module contains the file `QuickSort.ipynb`, which implements the Quick Sort algorithm using a partitioning strategy.
 
-## Quick Sort Algorithm
+## **Quick Sort Algorithm**
 
 Quick Sort is a highly efficient, divide-and-conquer sorting algorithm. It works by selecting a **pivot** element and partitioning the array such that:
 
@@ -11,7 +11,7 @@ Quick Sort is a highly efficient, divide-and-conquer sorting algorithm. It works
 
 This process is recursively applied to the left and right subarrays until the entire list is sorted.
 
-## Functions Used
+## **Functions Used**
 
 ### `Partition(A, p, r)`
 
@@ -24,7 +24,7 @@ This process is recursively applied to the left and right subarrays until the en
 
 - Recursively applies partitioning to sort (in-place) the list `A` from index `p` to `r`.
 
-## Visual Explanation of Quick Sort
+## **Visual Explanation of Quick Sort**
 
 The image below shows how Quick Sort partitions the array around the pivot and gradually sorts it using recursive calls.
 
@@ -40,7 +40,7 @@ print(A)
 # Output: [1, 2, 3, 7, 8]
 ```
 
-## Time Complexity
+## **Time Complexity**
 
 - **Best case:** $O(n \lg n)$
 - **Worst case:** $O(n^2)$

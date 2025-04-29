@@ -1,8 +1,8 @@
-# Experiment Engine: Sorting Algorithm Machines
+# **Experiment Engine: Sorting Algorithm Machines**
 
 This module provides the experimental engine used to evaluate and compare the time complexity of sorting algorithms. It includes functions for testing algorithms across various scenarios and visualizing the results.
 
-## Machine Overview
+## **Machine Overview**
 
 - A set of sizes of lists is defined in the variable `sizes`.
 - For each size, the sorting operation is repeated `reps` times to compute an **average execution time**. This reduces the impact of random system processes affecting timing.
@@ -13,7 +13,7 @@ The execution times are stored in a list called `total_times`, where each entry 
 
 ---
 
-## Types of Machines
+## **Types of Machines**
 
 There are two experimental machines in the project:
 
@@ -27,11 +27,11 @@ There are two experimental machines in the project:
 
 ---
 
-## Graphs and Visualization
+## **Graphs and Visualization**
 
 The plots generated in this project are **line plots**, each titled according to the algorithm or scenario used. All graphs are saved in the `img/` folder of the project, and also displayed within the notebook.
 
-### Plotting Functions
+### **Plotting Functions**
 
 - `ComplexityGraph`:
 
@@ -43,7 +43,7 @@ The plots generated in this project are **line plots**, each titled according to
 
 ---
 
-## MachineCall Utility
+## **MachineCall Utility**
 
 The function `MachineCall` acts as a controller. Based on the input data, it decides whether to use `ComplexityMachine` or `ComparisonMachine`, ensuring that the appropriate logic and graphing function is triggered.
 

@@ -1,5 +1,5 @@
 # %% [markdown]
-# ## Bubble Sort Algorithm
+# ## **Bubble Sort Algorithm**
 
 # %%
 def BubbleSort(A):

@@ -1,5 +1,5 @@
 # %% [markdown]
-# ## Insertion Sort Algorithm
+# ## **Insertion Sort Algorithm**
 
 # %%
 def InsertionSort(A):

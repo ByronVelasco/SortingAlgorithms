@@ -17,7 +17,7 @@ Our results show that **Merge Sort and Heap Sort consistently maintained their p
 
 However, in real-world situations, data is typically unordered, making **random lists the most common scenario**. In this context, **Quick Sort and Merge Sort emerged as the fastest algorithms on average**. Quick Sort, in particular, demonstrated superior average-case performance, making it a popular choice in many standard libraries and applications.
 
-It is important to note, though, that **Quick Sort's performance can degrade significantly in its worst-case scenarios** (such as already sorted or reverse sorted lists). Addressing these worst cases requires algorithmic improvements, which will be explored in a future project.
+It is important to note, though, that **Quick Sort's performance can degrade significantly in its worst-case scenarios** (such as already sorted or reverse sorted lists). Addressing these worst cases is explored in my other repository cited in this README file.
 
 In summary, while Merge Sort and Heap Sort offer consistent speed across all scenarios, Quick Sort stands out for its average-case efficiency on random data, provided its worst-case behavior is properly managed.
 
@@ -54,6 +54,10 @@ This project follows the structure and theoretical foundations presented in the 
 > ISBN: 9780262046305  
 > LCCN: 2021037260  
 > Available at: [https://lccn.loc.gov/2021037260](https://lccn.loc.gov/2021037260)
+
+> Byron Velasco, 2025.  
+> *Improved Quick Sort* (GitHub Repository).  
+> Available at: [https://github.com/ByronVelasco/ImprovedQuickSort](https://github.com/ByronVelasco/ImprovedQuickSort)
 
 ## **License**
 

@@ -11,58 +11,34 @@ This project presents an experimental study of the time complexity of fundamenta
 
 ## **Conclusions**
 
-In this study, we experimentally validated the theoretical time complexities of various sorting algorithms. We also compared their performance across different input scenarios. Since data in real-world applications is typically unordered, the average-case performance is often the most relevant. Under these conditions, **QuickSort** and **MergeSort** consistently emerged as the fastest algorithms, achieving an average execution time of approximately **0.02 seconds** for lists containing **10,000 elements**.
+Through comprehensive experimentation and analysis, we have compared the performance of several classic sorting algorithms—Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Heap Sort, and Quick Sort—across three different input scenarios: random, sorted, and reverse sorted lists.
 
-On the other hand, **BubbleSort**, **InsertionSort**, and **SelectionSort** demonstrated significantly slower runtimes in all test cases, aligning with their known quadratic time complexity. **HeapSort**, while slightly slower than QuickSort and MergeSort, still maintained excellent average performance and is widely appreciated not only as a sorting algorithm but also as a foundational data structure for implementing efficient priority queues—an aspect we plan to explore further in future work.
+Our results show that **Merge Sort and Heap Sort consistently maintained their performance and were the fastest algorithms in all three scenarios**, regardless of the initial order of the data. This robustness makes them highly reliable choices for practical applications.
+
+However, in real-world situations, data is typically unordered, making **random lists the most common scenario**. In this context, **Quick Sort and Merge Sort emerged as the fastest algorithms on average**. Quick Sort, in particular, demonstrated superior average-case performance, making it a popular choice in many standard libraries and applications.
+
+It is important to note, though, that **Quick Sort's performance can degrade significantly in its worst-case scenarios** (such as already sorted or reverse sorted lists). Addressing these worst cases requires algorithmic improvements, which will be explored in a future project.
+
+In summary, while Merge Sort and Heap Sort offer consistent speed across all scenarios, Quick Sort stands out for its average-case efficiency on random data, provided its worst-case behavior is properly managed.
 
 ## **Project Structure**
 
 The repository is organized into the following components:
 
-- **Individual Algorithm Folders**:  
-  Each sorting algorithm (e.g., BubbleSort, InsertionSort, MergeSort, etc.) is placed in its own folder. Every folder contains the implementation and a detailed explanation in its corresponding `README.md`.
+- **`1 Theoretical Framework` Folder**:   
+  This folder contains the theoretical framework and explanations for each sorting algorithm included in this project.
 
-- **`Tests/` Folder**:  
-  Contains test scripts that evaluate the correctness and behavior of each sorting algorithm.
-
-- **`ListsMaker/` Folder**:  
-  Contains functions that generate input lists:
-  - Random lists
-  - Ascending sorted lists
-  - Descending sorted lists
+- **`2 Algorithm Design and Experimentation` Folder**:  
+  This folder contains the implementation of algorithms `bubble_sort`, `insertion_sort`, `selection_sort`, `merge_sort`, `heap_sort` and `quick_sort` and their performance comparison with each other. It includes an experiment measuring and analyzing their execution times.
 
 - **`img/` Folder**:  
-  Stores the cited diagrams (`references/` folder) used to explain each algorithm and the output images generated during experimentation.  
+  Stores the referenced diagrams (in the `references`/ subfolder) used to illustrate each algorithm, as well as the output images generated during experimentation.
 
-- **`7 ComplexityMachine/` Folder**:  
-  Contains the notebook `ComplexityMachine.ipynb`, which performs the experimental analysis of sorting algorithms and presents the conclusions.
+- **`project_functions.py` Python Script**:   
+  This Python script includes all the sorting algorithms developed specifically for this project.
 
-## **How to Run This Project**
-
-1. **Clone the repository**  
-   Open a terminal and run:
-
-   ```bash
-   git clone https://github.com/ByronVelasco/SortingAlgorithms.git
-   cd SortingAlgorithms
-
-2. **Install the required libraries**
-   
-   Make sure you have Python installed (preferably 3.8+), then install the dependencies:
-   
-   ```bash
-   pip install -r requirements.txt
-
-3. **Open the main notebook**
-   
-   Use your preferred Python environment (like Jupyter, VS Code, or Google Colab) and open:
-
-   ```
-   7 ComplexityMachine/ComplexityMachine.ipynb
-
-4. **Run** the cells to perform the experiments and generate the visualizations.
-
-   The results will be displayed directly in the notebook, and the corresponding graphs will be saved in the `img/` folder.
+- **`requirements.txt` Text File**:   
+This file lists all the dependencies required to run the project.
 
 ## **Final Note**
 
@@ -87,5 +63,7 @@ This project follows the structure and theoretical foundations presented in the 
 - The **educational content** (including explanations, diagrams, and documentation) is shared under the  
   [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).  
   You may reuse and adapt it for non-commercial purposes with attribution.
+
+---
 
 © 2025 Byron Velasco
